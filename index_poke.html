@@ -1,0 +1,100 @@
+<!DOCTYbE html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="estilo_poke.css"> 
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="ht tbs://fonts.googleabis.com/css2?family=battaya&disblay=swab" rel="stylesheet">
+    <link href="httbs://fonts.googleabis.com/css2?family=Reggae+One&disblay=swab" rel="stylesheet"> 
+    <link rel="shortcut icon" href="/Images/bola.jpg" />
+
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="/index_poke.html"><img class="img_logo" src="/Images/logo.jpg" alt="Home"></a>
+          <form id="pokeForm">
+              <input id="myInput" type="text" name="myPokemon"
+              placeholder="Buscar Pokemon..." id="searchPoke" class="datoInput">
+              <input type="submit" id="myButton" value="Buscar" onclick="viewArray()" >
+          </formcomplete=>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="card-container">
+      <div class="card">        
+          <img class="img_poke" id="img_poke" src="/Images/charmander.png" alt="Charmander">        
+        <div class="card-text">
+          <span class="pokemon_id" id="pokemon_id">001</span>
+          <h2 class="pokemon_name" id="pokemon_name">Charmander</h2>
+          <p class="pokemon_type" id="pokemon_type">Fuego</p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value" id="speed">45</div>
+            <div class="type">Speed</div>
+          </div>
+          <div class="stat">
+            <div class="value" id="hp">850</div>
+            <div class="type">HP</div>
+          </div>
+          <div class="stat">
+            <div class="value" id="attack">32</div>
+            <div class="type">Attack</div>
+          </div>
+        </div>
+      </div>
+<!--
+      <div class="card">
+          <img class="img_poke" src="/Images/bulbasaur.png" alt="Bulbasour">
+        <div class="card-text">
+          <span class="pokemon_id">002</span>
+          <h2 class="pokemon_name">Bulbasour</h2>
+          <p class="pokemon_type">Hierva</p>
+        </div>
+        <div class="card-stats card-2">
+          <div class="stat">
+            <div class="value">45</div>
+            <div class="type">velocidad</div>
+          </div>
+          <div class="stat">
+            <div class="value">850</div>
+            <div class="type">vitalidad</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">poder</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+          <img class="img_poke" src="/Images/squirtle.png" alt="Squirtle">
+        <div class="card-text">
+          <span class="pokemon_id">003</span>
+          <h2 class="pokemon_name">Squirtle</h2>
+          <p class="pokemon_type">Agua</p>
+        </div>
+        <div class="card-stats card-3">
+          <div class="stat">
+            <div class="value">45</div>
+            <div class="type">velocidad</div>
+          </div>
+          <div class="stat">
+            <div class="value">850</div>
+            <div class="type">vitalidad</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">poder</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+  </div>
+  <script src="code.js"></script>
+
+  </body>
+</html>
